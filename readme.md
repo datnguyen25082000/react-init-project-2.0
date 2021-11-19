@@ -11,8 +11,9 @@ This is my react style init project
 ### How to run
 
 You will need to install this repo
+```bash
 $ copy the environment variables in the .env.example file (and change it with your local variables) into the .env file
-
+```
 
 After clone the repo you will need to do:
 
@@ -20,3 +21,4 @@ After clone the repo you will need to do:
 $ npm i # Install the dependencies
 $ npm run dev # Running in development
 $ npm run build # Build the project
+```
