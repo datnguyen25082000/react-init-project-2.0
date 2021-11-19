@@ -1,0 +1,3 @@
+interface ICardBox {
+  item?: IResApi;
+}

@@ -1,0 +1,29 @@
+.card-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  &:hover {
+    background-color: #ebe9e9;
+  }
+
+  &__image {
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
