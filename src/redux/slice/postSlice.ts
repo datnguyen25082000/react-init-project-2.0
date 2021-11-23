@@ -3,7 +3,7 @@ import { postApi } from "../api";
 
 export const postSlice = createSlice({
   name: "post",
-  initialState: { data: [] } as ISlicePost,
+  initialState: { data: [], currentPage: 0 } as ISlicePost,
   reducers: {},
   extraReducers: (builder) => {
     builder.addMatcher(
